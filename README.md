@@ -7,6 +7,6 @@ This project is HoYa's ShottenTotten game.
 - [x] Project Setting
 - [x] Create Board/Card
 - [x] Create Player
-- [ ] Setup Game
+- [x] Setup Game
 - [ ] Draw Card
 - [ ] Check and Evaluate Matching

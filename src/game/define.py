@@ -1,3 +1,4 @@
+# Board
 ROW: int = 7
 COL: int = 9
 
@@ -6,11 +7,9 @@ BORDER_ROW: int = 3
 # P2_ROW: int = 4
 
 PLAYER_ROW_COUNT: int = 3
-INITIAL_CARD_COUNT: int = 6
 
-MATCH_DRAW: int = 0
-MATCH_P1: int = 1
-MATCH_P2: int = 2
+# Card
+INITIAL_CARD_COUNT: int = 6
 
 TRIBE_A1: str = "A 1"
 TRIBE_A2: str = "A 2"
@@ -66,3 +65,12 @@ TRIBE_F6: str = "F 6"
 TRIBE_F7: str = "F 7"
 TRIBE_F8: str = "F 8"
 TRIBE_F9: str = "F 9"
+
+# Player
+PLAYER_COM: str = "COM"
+PLAYER_USER: str = "USER"
+
+# Game
+MATCH_DRAW: int = 0
+MATCH_P1: int = 1
+MATCH_P2: int = 2

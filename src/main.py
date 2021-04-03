@@ -1,16 +1,10 @@
-from .game.board import *
-from .game.card import *
-from .game.player import *
+from .game.game import *
 from .cli.draw import *
+from .cli.menu import *
 
 if __name__ == "__main__":
     print("Hello Schotten Totten")
 
-    board = create_board()
-    draw_board(board)
+    num_player, order = player_menu()
 
-    card = Card()
-
-    players = [None, None]
-    players[0] = Player(card.get_initial_card())
-    players[1] = Player(card.get_initial_card())
+    game = Game(num_player, order)
