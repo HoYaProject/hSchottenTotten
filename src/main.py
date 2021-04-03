@@ -1,5 +1,6 @@
 from .game.board import *
 from .game.card import *
+from .game.player import *
 from .cli.draw import *
 
 if __name__ == "__main__":
@@ -7,4 +8,9 @@ if __name__ == "__main__":
 
     board = create_board()
     draw_board(board)
-    card = create_card_dummy()
+
+    card = Card()
+
+    players = [None, None]
+    players[0] = Player(card.get_initial_card())
+    players[1] = Player(card.get_initial_card())
